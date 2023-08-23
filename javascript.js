@@ -31,6 +31,23 @@ function buttonKlik(drik) {
   }
 }
 
+let tidsHilsen = new Date().getHours();
+
+if (tidsHilsen >= 5 && tidsHilsen < 10) {
+  console.log("Godmorgen");
+} else if (tidsHilsen >= 10 && tidsHilsen < 18) {
+  console.log("Goddag");
+} else if (tidsHilsen >= 18 && tidsHilsen < 24) {
+  console.log("Godaften");
+} else if (tidsHilsen >= 0 && tidsHilsen < 5) {
+    console.log("Godnat");
+}
+
+
+
+
+
+
 
 
 /*
