@@ -1,4 +1,152 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
+}
+
+/* style.css */
+.back-arrow {
+  position: fixed;
+  top: 1%; /* Adjust the top position as needed */
+  left: 1%;
+  transform: translateY(-0%); /* Vertically center the arrow */
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-arrow:hover {
+  background-color: #555;
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  gap: 2rem;
+}
+
+#box1 {
+  background: rgb(149, 149, 192);
+  width: 200px;
+  height: 100px;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center content */
+  justify-content: center;
+}
+
+#box2 {
+  background: rgb(149, 149, 192);
+  width: 200px;
+  height: 100px;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center content */
+  justify-content: center;
+}
+
+#box3 {
+  background: rgb(149, 149, 192);
+  width: 200px;
+  height: 100px;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center content */
+  justify-content: center;
+}
+
+#box4 {
+  background: rgb(149, 149, 192);
+  width: 200px;
+  height: 100px;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center content */
+  justify-content: center;
+}
+
+.h2_drik {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.drik_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hilsen_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.tal_container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: aliceblue;
+  padding: 8rem;
+  margin: 6rem 30rem;
+}
+
+#h3_spice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  font-size: 3rem;
+}
+
+.spice_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spice_container {
+  display: flex; /* Display images in a row */
+  justify-content: center; /* Center align images horizontally */
+  align-items: center; /* Center align images vertically */
+}
+
+.knapElement {
+  width: 250px; /* Set a fixed width for the images */
+  height: 300px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  margin: 5px; /* Add some margin between images */
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  color: red;
+  font-size: 24px;
+  pointer-events: none; /* Prevent the heart from blocking clicks */
 }

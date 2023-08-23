@@ -1,3 +1,5 @@
+/* ØVELSE 1 */
+
 const øl = document.getElementById("øl");
 const snaps = document.getElementById("snaps");
 const cola = document.getElementById("cola");
@@ -21,32 +23,19 @@ fanta.addEventListener("click", function () {
 
 function buttonKlik(drik) {
   if (drik === øl) {
-    console.log("Øl indeholder alkohol!");
+    alert("Øl er læskende og indeholder alkohol!");
+    console.log("Øl er læskende og indeholder alkohol!");
   } else if (drik === snaps) {
-    console.log("Snaps indeholder mange procenter alkohol!");
+    alert("Snaps indeholder mange procenter alkohol! SKÅL!");
+    console.log("Snaps indeholder mange procenter alkohol! SKÅL!");
   } else if (drik === cola) {
-    console.log("Det er en sodavand uden alkohol (men måske coke?!)");
+    alert("Det er en sodavand uden alkohol (men måske coke?!)");
+    console.log("Det er en sodavand uden alkohol (men måske en gang coke?!)");
   } else if (drik === fanta) {
-    console.log("Det er en FANTAstisk sodavand!");
+    alert("Det er en FANTAstisk sodavand uden alkohol");
+    console.log("Det er en FANTAstisk sodavand uden alkohol");
   }
 }
-
-let tidsHilsen = new Date().getHours();
-
-if (tidsHilsen >= 5 && tidsHilsen < 10) {
-  console.log("Godmorgen");
-} else if (tidsHilsen >= 10 && tidsHilsen < 18) {
-  console.log("Goddag");
-} else if (tidsHilsen >= 18 && tidsHilsen < 24) {
-  console.log("Godaften");
-} else if (tidsHilsen >= 0 && tidsHilsen < 5) {
-    console.log("Godnat");
-}
-
-
-
-
-
 
 
 
@@ -57,11 +46,7 @@ let java_lær = "i dag skal du lære javascript";
 
 let greeting = `${hejsa}, du er sjov`;
 
-function SpiceGirls(name, spice) {
-  console.log(`${name} is called ${spice}`);
-}
 
-SpiceGirls("Geri", "Ginger Spice");
 
 function visBesked(txt) {
   console.log(txt);
